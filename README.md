@@ -1,8 +1,11 @@
-# React + Vite
+# Desafio 04 - Gênio do React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Desafio de desenvolvimento web utilizando HTML, Sass e React, com foco em práticas de design responsivo. O projeto aborda a adaptação do layout entre versões desktop e mobile.
 
-Currently, two official plugins are available:
+Como referência visual foi utilizado o [modelo](https://www.figma.com/design/LBODsPDSyKhBv5lex4Vrsv/Untitled?node-id=0-1&node-type=canvas&t=ZGZbFD3GBBfPyEDh-0&authuser=0) do Figma.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Tecnologias utilizadas:
+> * HTML5
+> * CSS3
+>   * Sass
+> * React + Vite
