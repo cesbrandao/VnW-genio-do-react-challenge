@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+$font-stack: "Sevillana", cursive;
+
+@mixin flexbox {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    @include flexbox();
+    flex-direction: column;
+    height: 100vh;
+    @media(max-width: 480px) {
+        justify-content: space-between;
+    }
+
+    h1 {
+        //border: red solid;
+        font-family: $font-stack;
+        font-weight: 400;
+        font-size: 2.5em;
+        color: white;
+        text-align: center;
+        margin: 15px 0;
+        @media(max-width: 480px) {
+            font-size: 1.5em;
+        }
+    }
+
+    div {
+        width: 40vw;
+        img {
+            //border: red solid;
+            width: 100%;
+        }
+        @media(max-width: 480px) {
+            width: 100vw;
+        }
+    }
+
+    button {
+        background-color: #007BFF;
+        font-family: $font-stack;
+        font-size: 1.2em;
+        color: white;
+        padding: 5px 50px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        @media(max-width: 480px) {
+            background-color: #B74794;
+            margin-bottom: 50px;
+        }
+    }
+}
